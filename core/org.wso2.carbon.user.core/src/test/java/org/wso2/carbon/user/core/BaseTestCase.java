@@ -27,6 +27,8 @@ public class BaseTestCase extends TestCase {
     public void setUp() throws Exception {
 
         
+	    
+	    
          if (System.getProperty("carbon.home") == null) {
              File file = new File("../../distribution/kernel/carbon-home");
             if (file.exists()) {
